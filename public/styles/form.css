@@ -1,0 +1,106 @@
+#form{
+    background-color: hsl(var(--color-baby-blue));
+    padding-left: 1rem;
+    padding-right: 0.8rem;
+    padding-top: clamp(0.3rem, 0.3rem + 0.5vw ,1rem);
+    padding-bottom: clamp(0.3rem, 0.3rem + 0.5vw ,1rem);
+    border-radius: 1rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    margin-top: 2rem;    
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+@media only screen and (min-width: 800px) {
+    #form{
+        width: 55vw;
+    }
+    #form .field-value{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #form input{
+        background-color: hsl(var(--color-light) / 0.5);
+        border-radius: 1rem;
+    }
+    #form .field-value + .field-value {
+        margin-top: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+
+    #form{
+        width: 90;
+    }
+    #form .field-value{
+        display: grid;
+        grid-template-rows  : 1fr 1fr;
+    }
+    #form .field-value div{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    #form input{
+    
+        background-color: hsl(var(--color-light) / 0.5);
+        border-radius: 1rem;
+    }
+    #form .field-value + .field-value {
+        margin-top: 1.75rem;
+    }
+  }
+
+
+
+
+/* #form .field-value{
+    border-color: red;
+    border-width: 4px;
+    border-style: solid;
+} */
+
+
+.error{
+    background-color: hsl(var(--color-light-red) / 0.6) !important;
+}
+
+
+#form input[type = "text"]::after{
+    content: "ergerg";
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    background-color: red !important;
+    z-index: 10;
+    left: 200px;
+}
+
+
+
+button{
+    font-weight: 700;
+    padding-inline: 1ch;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-color: hsl( var(--color-green));
+    -webkit-box-shadow: 0px 1px 3px 2px hsl(var(--color-dark));
+    -moz-box-shadow: 0px 1px 3px 2px hsl(var(--color-dark));
+    box-shadow: 0px 1px 3px 2px hsl(var(--color-dark));
+}
+
+button:hover{
+    -webkit-box-shadow: 0px 2px 4px 3px hsl(var(--color-dark )/ 0.9);
+    -moz-box-shadow: 0px 2px 4px 3px hsl(var(--color-dark ) /0.9);
+    box-shadow: 0px 2px 4px 3px hsl(var(--color-dark ) / 0.9);
+}
+
+button:active{
+    -webkit-box-shadow: 0px 1px 3px 2px hsl(var(--color-dark));
+    -moz-box-shadow: 0px 1px 3px 2px hsl(var(--color-dark));
+    box-shadow: 0px 1px 3px 2px hsl(var(--color-dark));
+}

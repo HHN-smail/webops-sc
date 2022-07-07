@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/public/scripts/default.js" defer></script>
+    <script src="/public/scripts/form.js" defer></script>
+
+    <link rel="stylesheet" href="/public/styles/defaults.css">
+    <link rel="stylesheet" href="/public/styles/utility.css">
+    <link rel="stylesheet" href="/public/styles/form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div id="form">
+        <div class="field-value-container">
+            <div class="field-value">
+                <div class="center-vertically fweight-600">NAME</div>
+                <input name="name_form" field="name" type="text">
+            </div>
+            <div class="field-value">
+                <div class="center-vertically fweight-600">ROLL NUMBER</div>
+                <input field="roll_number" oninput="this.value = this.value.toUpperCase()" type="text">
+            </div>
+            <div class="field-value">
+                <div class="center-vertically fweight-600">EMAIL</div>
+                <input field="email" type="text">
+
+            </div>
+            <div class="field-value">
+                <div class="center-vertically fweight-600">HOSTEL</div>
+                <input field="hostel" type="text">
+
+            </div>
+            <div class="field-value">
+                <div class="center-vertically fweight-600">MOBILE NUMBER</div>
+                <input field="mobile_number" type="text">
+            </div>
+            <div class="field-value">
+                <div class="center-vertically fweight-600">PASSWORD</div>
+                <input field="password" type="password">
+            </div>
+            <div class="field-value">
+                <div class="center-vertically fweight-600">CONFIRM PASSWORD</div>
+                <input field="confirm_password" type="password">
+            </div>
+        </div>
+        <!-- <div>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div> -->
+
+        <button id="user-register-button">SUBMIT</button>
+    </div>
+</body>
+
+</html>

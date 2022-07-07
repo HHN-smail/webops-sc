@@ -1,0 +1,455 @@
+@keyframes menuAnimation {
+    0% {
+        transform: scale(1, 0.25);
+    }1% {
+        transform: scale(1, 0.27955299250000004);
+    }2% {
+        transform: scale(1, 0.30822388);
+    }3% {
+        transform: scale(1, 0.33603039250000005);
+    }4% {
+        transform: scale(1, 0.3629900800000001);
+    }5% {
+        transform: scale(1, 0.3891203125000001);
+    }6% {
+        transform: scale(1, 0.41443828000000016);
+    }7% {
+        transform: scale(1, 0.4389609925000002);
+    }8% {
+        transform: scale(1, 0.46270527999999994);
+    }9% {
+        transform: scale(1, 0.48568779249999994);
+    }10% {
+        transform: scale(1, 0.507925);
+    }11% {
+        transform: scale(1, 0.5294331925);
+    }12% {
+        transform: scale(1, 0.55022848);
+    }13% {
+        transform: scale(1, 0.5703267925000001);
+    }14% {
+        transform: scale(1, 0.58974388);
+    }15% {
+        transform: scale(1, 0.6084953125000001);
+    }16% {
+        transform: scale(1, 0.62659648);
+    }17% {
+        transform: scale(1, 0.6440625925000001);
+    }18% {
+        transform: scale(1, 0.6609086799999999);
+    }19% {
+        transform: scale(1, 0.6771495925);
+    }20% {
+        transform: scale(1, 0.6928);
+    }21% {
+        transform: scale(1, 0.7078743925);
+    }22% {
+        transform: scale(1, 0.72238708);
+    }23% {
+        transform: scale(1, 0.7363521925);
+    }24% {
+        transform: scale(1, 0.74978368);
+    }25% {
+        transform: scale(1, 0.7626953125);
+    }26% {
+        transform: scale(1, 0.77510068);
+    }27% {
+        transform: scale(1, 0.7870131925000001);
+    }28% {
+        transform: scale(1, 0.7984460800000001);
+    }29% {
+        transform: scale(1, 0.8094123925000001);
+    }30% {
+        transform: scale(1, 0.819925);
+    }31% {
+        transform: scale(1, 0.8299965925000001);
+    }32% {
+        transform: scale(1, 0.8396396800000001);
+    }33% {
+        transform: scale(1, 0.8488665925000001);
+    }34% {
+        transform: scale(1, 0.8576894800000001);
+    }35% {
+        transform: scale(1, 0.8661203124999999);
+    }36% {
+        transform: scale(1, 0.8741708800000001);
+    }37% {
+        transform: scale(1, 0.8818527925);
+    }38% {
+        transform: scale(1, 0.88917748);
+    }39% {
+        transform: scale(1, 0.8961561925000001);
+    }40% {
+        transform: scale(1, 0.9028);
+    }41% {
+        transform: scale(1, 0.9091197925);
+    }42% {
+        transform: scale(1, 0.91512628);
+    }43% {
+        transform: scale(1, 0.9208299925);
+    }44% {
+        transform: scale(1, 0.92624128);
+    }45% {
+        transform: scale(1, 0.9313703125);
+    }46% {
+        transform: scale(1, 0.93622708);
+    }47% {
+        transform: scale(1, 0.9408213925);
+    }48% {
+        transform: scale(1, 0.94516288);
+    }49% {
+        transform: scale(1, 0.9492609925);
+    }50% {
+        transform: scale(1, 0.953125);
+    }51% {
+        transform: scale(1, 0.9567639925);
+    }52% {
+        transform: scale(1, 0.96018688);
+    }53% {
+        transform: scale(1, 0.9634023924999999);
+    }54% {
+        transform: scale(1, 0.96641908);
+    }55% {
+        transform: scale(1, 0.9692453125);
+    }56% {
+        transform: scale(1, 0.97188928);
+    }57% {
+        transform: scale(1, 0.9743589925);
+    }58% {
+        transform: scale(1, 0.97666228);
+    }59% {
+        transform: scale(1, 0.9788067924999999);
+    }60% {
+        transform: scale(1, 0.9808);
+    }61% {
+        transform: scale(1, 0.9826491924999999);
+    }62% {
+        transform: scale(1, 0.98436148);
+    }63% {
+        transform: scale(1, 0.9859437925000001);
+    }64% {
+        transform: scale(1, 0.9874028800000001);
+    }65% {
+        transform: scale(1, 0.9887453125);
+    }66% {
+        transform: scale(1, 0.98997748);
+    }67% {
+        transform: scale(1, 0.9911055925);
+    }68% {
+        transform: scale(1, 0.99213568);
+    }69% {
+        transform: scale(1, 0.9930735924999999);
+    }70% {
+        transform: scale(1, 0.993925);
+    }71% {
+        transform: scale(1, 0.9946953924999999);
+    }72% {
+        transform: scale(1, 0.99539008);
+    }73% {
+        transform: scale(1, 0.9960141925);
+    }74% {
+        transform: scale(1, 0.99657268);
+    }75% {
+        transform: scale(1, 0.9970703125);
+    }76% {
+        transform: scale(1, 0.99751168);
+    }77% {
+        transform: scale(1, 0.9979011925);
+    }78% {
+        transform: scale(1, 0.99824308);
+    }79% {
+        transform: scale(1, 0.9985413925);
+    }80% {
+        transform: scale(1, 0.9987999999999999);
+    }81% {
+        transform: scale(1, 0.9990225925);
+    }82% {
+        transform: scale(1, 0.99921268);
+    }83% {
+        transform: scale(1, 0.9993735925);
+    }84% {
+        transform: scale(1, 0.99950848);
+    }85% {
+        transform: scale(1, 0.9996203124999999);
+    }86% {
+        transform: scale(1, 0.99971188);
+    }87% {
+        transform: scale(1, 0.9997857925);
+    }88% {
+        transform: scale(1, 0.99984448);
+    }89% {
+        transform: scale(1, 0.9998901925);
+    }90% {
+        transform: scale(1, 0.999925);
+    }91% {
+        transform: scale(1, 0.9999507925);
+    }92% {
+        transform: scale(1, 0.99996928);
+    }93% {
+        transform: scale(1, 0.9999819925);
+    }94% {
+        transform: scale(1, 0.99999028);
+    }95% {
+        transform: scale(1, 0.9999953125000001);
+    }96% {
+        transform: scale(1, 0.99999808);
+    }97% {
+        transform: scale(1, 0.9999993925);
+    }98% {
+        transform: scale(1, 0.99999988);
+    }99% {
+        transform: scale(1, 0.9999999924999999);
+    }100% {
+        transform: scale(1, 1);
+    }
+    }
+
+    @keyframes menuContentsAnimation {
+    0% {
+        transform: scale(1, 4);
+    }1% {
+        transform: scale(1, 3.577139314650691);
+    }2% {
+        transform: scale(1, 3.244394950838981);
+    }3% {
+        transform: scale(1, 2.9759212925955794);
+    }4% {
+        transform: scale(1, 2.7548962219573596);
+    }5% {
+        transform: scale(1, 2.5698992519183887);
+    }6% {
+        transform: scale(1, 2.4129045222367);
+    }7% {
+        transform: scale(1, 2.278106749997836);
+    }8% {
+        transform: scale(1, 2.161202915168809);
+    }9% {
+        transform: scale(1, 2.058935833764033);
+    }10% {
+        transform: scale(1, 1.9687946055027812);
+    }11% {
+        transform: scale(1, 1.888812439730061);
+    }12% {
+        transform: scale(1, 1.8174268260341595);
+    }13% {
+        transform: scale(1, 1.7533807163723591);
+    }14% {
+        transform: scale(1, 1.6956513393576886);
+    }15% {
+        transform: scale(1, 1.6433980335715401);
+    }16% {
+        transform: scale(1, 1.5959234242745826);
+    }17% {
+        transform: scale(1, 1.5526441244140412);
+    }18% {
+        transform: scale(1, 1.513068340999849);
+    }19% {
+        transform: scale(1, 1.4767785598276058);
+    }20% {
+        transform: scale(1, 1.443418013856813);
+    }21% {
+        transform: scale(1, 1.4126800045249555);
+    }22% {
+        transform: scale(1, 1.3842993980457126);
+    }23% {
+        transform: scale(1, 1.3580457968148172);
+    }24% {
+        transform: scale(1, 1.3337180131741466);
+    }25% {
+        transform: scale(1, 1.3111395646606914);
+    }26% {
+        transform: scale(1, 1.2901549770282745);
+    }27% {
+        transform: scale(1, 1.2706267309489858);
+    }28% {
+        transform: scale(1, 1.2524327253256724);
+    }29% {
+        transform: scale(1, 1.2354641580311607);
+    }30% {
+        transform: scale(1, 1.219623746074336);
+    }31% {
+        transform: scale(1, 1.2048242234199291);
+    }32% {
+        transform: scale(1, 1.1909870672143554);
+    }33% {
+        transform: scale(1, 1.1780414129090608);
+    }34% {
+        transform: scale(1, 1.1659231263976793);
+    }35% {
+        transform: scale(1, 1.1545740072918567);
+    }36% {
+        transform: scale(1, 1.1439411022247732);
+    }37% {
+        transform: scale(1, 1.133976110871135);
+    }38% {
+        transform: scale(1, 1.1246348704197953);
+    }39% {
+        transform: scale(1, 1.1158769066922447);
+    }40% {
+        transform: scale(1, 1.1076650420912715);
+    }41% {
+        transform: scale(1, 1.0999650521853532);
+    }42% {
+        transform: scale(1, 1.0927453640605753);
+    }43% {
+        transform: scale(1, 1.0859767906614965);
+    }44% {
+        transform: scale(1, 1.0796322962414286);
+    }45% {
+        transform: scale(1, 1.0736867887873547);
+    }46% {
+        transform: scale(1, 1.0681169359040543);
+    }47% {
+        transform: scale(1, 1.0629010011589421);
+    }48% {
+        transform: scale(1, 1.0580186983221347);
+    }49% {
+        transform: scale(1, 1.0534510613001935);
+    }50% {
+        transform: scale(1, 1.0491803278688525);
+    }51% {
+        transform: scale(1, 1.0451898355696114);
+    }52% {
+        transform: scale(1, 1.0414639283552802);
+    }53% {
+        transform: scale(1, 1.0379878727569176);
+    }54% {
+        transform: scale(1, 1.0347477825044598);
+    }55% {
+        transform: scale(1, 1.0317305506700607);
+    }56% {
+        transform: scale(1, 1.0289237885204372);
+    }57% {
+        transform: scale(1, 1.026315770365305);
+    }58% {
+        transform: scale(1, 1.0238953837758533);
+    }59% {
+        transform: scale(1, 1.0216520846222061);
+    }60% {
+        transform: scale(1, 1.0195758564437194);
+    }61% {
+        transform: scale(1, 1.0176571737222488);
+    }62% {
+        transform: scale(1, 1.0158869686774008);
+    }63% {
+        transform: scale(1, 1.0142566012453493);
+    }64% {
+        transform: scale(1, 1.0127578319398864);
+    }65% {
+        transform: scale(1, 1.0113827973267888);
+    }66% {
+        transform: scale(1, 1.010123987870916);
+    }67% {
+        transform: scale(1, 1.008974227940299);
+    }68% {
+        transform: scale(1, 1.0079266577732595);
+    }69% {
+        transform: scale(1, 1.0069747172337584);
+    }70% {
+        transform: scale(1, 1.006112131197022);
+    }71% {
+        transform: scale(1, 1.005332896422359);
+    }72% {
+        transform: scale(1, 1.004631269783199);
+    }73% {
+        transform: scale(1, 1.0040017577359974);
+    }74% {
+        transform: scale(1, 1.0034391069199289);
+    }75% {
+        transform: scale(1, 1.0029382957884427);
+    }76% {
+        transform: scale(1, 1.0024945271818773);
+    }77% {
+        transform: scale(1, 1.0021032217575991);
+    }78% {
+        transform: scale(1, 1.0017600122006356);
+    }79% {
+        transform: scale(1, 1.0014607381436118);
+    }80% {
+        transform: scale(1, 1.001201441730076);
+    }81% {
+        transform: scale(1, 1.0009783637600769);
+    }82% {
+        transform: scale(1, 1.0007879403612052);
+    }83% {
+        transform: scale(1, 1.0006268001323038);
+    }84% {
+        transform: scale(1, 1.000491761710716);
+    }85% {
+        transform: scale(1, 1.0003798317173553);
+    }86% {
+        transform: scale(1, 1.000288203037059);
+    }87% {
+        transform: scale(1, 1.000214253394684);
+    }88% {
+        transform: scale(1, 1.0001555441902323);
+    }89% {
+        transform: scale(1, 1.0001098195590112);
+    }90% {
+        transform: scale(1, 1.000075005625422);
+    }91% {
+        transform: scale(1, 1.0000492099214973);
+    }92% {
+        transform: scale(1, 1.0000307209437473);
+    }93% {
+        transform: scale(1, 1.000018007824276);
+    }94% {
+        transform: scale(1, 1.0000097200944793);
+    }95% {
+        transform: scale(1, 1.0000046875219728);
+    }96% {
+        transform: scale(1, 1.0000019200036865);
+    }97% {
+        transform: scale(1, 1.0000006075003691);
+    }98% {
+        transform: scale(1, 1.0000001200000144);
+    }99% {
+        transform: scale(1, 1.0000000075000002);
+    }100% {
+        transform: scale(1, 1);
+    }
+    }
+
+    .menu--expanded {
+        transform-origin: 0% 0%;
+        overflow: hidden    ;
+        animation-name: menuAnimation;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+      }
+      
+    .menu__contents--expanded {
+        transform-origin: 0% 0%;
+        animation-name: menuContentsAnimation;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+      }
+    .menu {
+        /* position: absolute; */
+        width: fit-content;
+        padding-inline: 0.5rem;
+    
+      }
+      .menu__contents--collapsed{
+
+
+      }
+    
+      
+    .menu--collapsed {
+        overflow: hidden;
+       height: 1.5rem;
+       
+       
+      }
+
+#nav-search{
+    display: inline-block;
+    position: relative;
+    float: right;
+    /* margin-right: min(max(0.5rem, 5%), 2rem); */
+    margin-right: clamp(0.5rem, 5%, 2rem);
+
+
+    height: 1.2rem;
+}
